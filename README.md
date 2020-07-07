@@ -17,3 +17,11 @@ The camel route is define in IntegrationRoute class.
  when email header 'from' conatians for '@gmail.com' then route to file
  or when header from '@oracle.com' then send email using smtp 
  Otherwise dump email body to folder.
+ 
+ Required dependencies:
+ camel-core-2.25.1.jar
+ camel-mail-2.25.1.jar
+ mail-1.4.7.jar
+ mysql-connector-java-5.1.38.jar
+ slf4j-api-1.7.25.jar
+ 
