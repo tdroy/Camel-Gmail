@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Installed_Apps/eclipse-photon/custom-libs/camel-core-2.25.1.jar"/>
+	<classpathentry kind="lib" path="C:/Installed_Apps/eclipse-photon/custom-libs/camel-mail-2.25.1.jar"/>
+	<classpathentry kind="lib" path="C:/Installed_Apps/eclipse-photon/custom-libs/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="C:/Installed_Apps/eclipse-photon/custom-libs/mail-1.4.7.jar"/>
+	<classpathentry kind="lib" path="C:/Installed_Apps/eclipse-photon/custom-libs/mysql-connector-java-5.1.38.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
