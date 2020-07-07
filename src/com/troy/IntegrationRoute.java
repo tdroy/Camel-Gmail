@@ -17,10 +17,10 @@ public class IntegrationRoute extends RouteBuilder {
 		try{
 
 			System.out.println("Building route.");
-			//from("imaps://imap.gmail.com?username=acs.wls.icici@gmail.com&password=Acs_welcome@1"
+			//from("imaps://imap.gmail.com?username=acs.wls.icici@gmail.com&password=****@1"
 				//	+ "&delete=false&unseen=true&consumer.delay=2000&debugMode=false").routeId("TroyPoller").process(new LoggingProcessor()).to("file:c:/delete/inbox/dvd/");
 	
-			from("imaps://imap.gmail.com?username=acs.wls.icici@gmail.com&password=Acs_welcome@1"
+			from("imaps://imap.gmail.com?username=acs.wls.icici@gmail.com&password=***"
 					+ "&delete=false&unseen=true&consumer.delay=2000&debugMode=false").routeId("TroyEmailPoller")
 					.choice()
 					.when(header("from").contains("@gmail.com")).to("file:c:/delete/inbox/Gmail/")
